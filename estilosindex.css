@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px auto;
+    padding: 15px;
+
+}
+
+#derecha {
+    float: right;
+    
+}
+
+nav {
+
+    background: black;
+    color: white;
+
+}
+
+.difumino {
+    width: 50%;
+    border: 1px;
+    box-shadow: 0px 10px 10px orange;
+    text-align: center;
+    margin: 10px auto;
+
+
+
+}
+
+.IZDA {
+    width: 60%;
+    float: left;
+}
+
+.degradado {
+    background: linear-gradient(to right, green, 30%, orange 40%, red);
+
+}
+
+.cajaderecha {
+    width: 35%;
+    float: right;
+    
+}
+
+.naranjita {
+    background: orange;
+
+}
+
+div {
+    width: 100%;
+
+
+}
+
+
+.peke {
+    width: 16px;
+    border-radius: 150px;
+}
+
+.imagen {
+    width: 100px;
+    border-radius: 60px;
+    position: absolute;
+    opacity: 0.5;
+
+
+}
+
+.imagen:hover {
+    transition: .2sg;
+    transform: scale(1.8);
+    opacity: 1;
+}
+
+ .bodydos {
+    clear: both;
+    margin-top: 220px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    #derecha {
+        display: none;
+    }
+
+    img {
+        display: none;
+    }
+
+    .IZDA {
+        width: 100%;
+
+    }
+
+    .cajaderecha {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+
+    }
+
+}
